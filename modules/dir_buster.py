@@ -67,7 +67,7 @@ def scan_urls(domain_name):
     print("[+] If you want to use your list of directories. Please edit *dark_fantasy_folder*/modules/wordlist.txt\n")
     print('[+] Brutforcing Started')
 
-    # Check doman name pattern matches
+    # Check domain name pattern matches
 
     paths = get_wordlist('modules/wordlist.txt')
     url_list = []    # list of all valid urls
